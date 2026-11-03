@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1b2a41;
+  color: white;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffcb05;
+}
+
+button {
+  background: #ffcb05;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.error {
+  background: #8b2b2b;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.card {
+  color: #222;
+  border: 5px solid #ffcb05;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h2 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.ps {
+  color: #b3201b;
+  font-weight: bold;
+}
+
+.imagen {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.imagen img {
+  width: 160px;
+  height: 160px;
+}
+
+.numero {
+  position: absolute;
+  right: 8px;
+  bottom: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tipos {
+  display: flex;
+  gap: 6px;
+}
+
+.tipos span {
+  color: white;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.caja {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.habilidad strong {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.habilidad p {
+  margin: 2px 0 6px;
+  font-size: 12px;
+}
+
+.stat {
+  display: grid;
+  grid-template-columns: 70px 1fr 30px;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.barra {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 8px;
+}
+
+.barra div {
+  background: #222;
+  border-radius: 10px;
+  height: 8px;
+}
+
+.datos {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
