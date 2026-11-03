@@ -1,6 +1,6 @@
 # Pokémon Deck
 
-Proyecto hecho con Vue 3 y Vite. Genera un mazo de 40 cartas de Pokémon de Kanto (los primeros 151) usando la PokeAPI.
+Proyecto hecho con sueño u lleno de tamales
 
 Alumno: Valentino Gardel Santos Pérez - 21160794
 
@@ -22,6 +22,5 @@ Después abrir http://localhost:5173
 
 ## Notas
 
-- Los Pokémon se piden en grupos de 10.
-- Si un Pokémon no tiene imagen o tiene menos de 2 habilidades se pide otro.
-- El botón "Nuevo mazo" genera otras 40 cartas.
+-Necesito una novia
+-Dios bendiga los flijoles de lata
